@@ -13,7 +13,7 @@ Feature: Handling TecDoc
     And User clicks on the 'Sign in' button
     And User enters Credentials to LogIn
       | Username                    | Password    |
-      | delbertkrajcik760@gmail.com | carmen321$  |
+      | karenaweimann694@gmail.com | carmen321$  |
     Then User checks if the email is registered
 
   Scenario: Order the TecDoc
@@ -21,7 +21,7 @@ Feature: Handling TecDoc
     And User clicks on the 'Sign in' button
     And User enters Credentials to LogIn
       | Username                     | Password    |
-      | delbertkrajcik760@gmail.com  | carmen321$  |
+      | karenaweimann694@gmail.com  | carmen321$  |
     And User is ordering the TecDoc
     And User checks ordering is successful
 
@@ -30,6 +30,6 @@ Feature: Handling TecDoc
     And User clicks on the 'Sign in' button
     And User enters Credentials to LogIn
       | Username                     | Password    |
-      | delbertkrajcik760@gmail.com  | carmen321$  |
+      | karenaweimann694@gmail.com  | carmen321$  |
     And User clicks on the 'My web licenses' tab
     Then User is retrieving the TecDoc licence
