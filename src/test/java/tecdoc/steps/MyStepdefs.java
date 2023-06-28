@@ -1,5 +1,6 @@
 package tecdoc.steps;
 
+import static com.codeborne.selenide.Selenide.open;
 import static tecdoc.pages.TecdocConstants.ORDER_COMPLETE;
 import static tecdoc.pages.TecdocConstants.WELCOME_MESSAGE;
 import static tecdoc.utils.ActionsHelper.clickElement;
@@ -32,7 +33,8 @@ public class MyStepdefs {
 
   @Given("Page is opened")
   public void loginPageIsOpened() {
-    actionsHelper.navigateTo(TECDOC_URL);
+    open("https://solutions.tecalliance.net");
+//    actionsHelper.navigateTo(TECDOC_URL);
 
   }
 /*

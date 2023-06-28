@@ -5,7 +5,7 @@ Feature: Handling TecDoc
     When User clicks on the 'register' button
     Then User populates mandatory fields having the country set to
       |Country    |
-      |Romania    |
+      |Moldova, Republic of    |
     And User checks the registration is successful
 
   Scenario: Checking the email is registered
@@ -13,7 +13,7 @@ Feature: Handling TecDoc
     And User clicks on the 'Sign in' button
     And User enters Credentials to LogIn
       | Username                    | Password    |
-      | karenaweimann694@gmail.com | carmen321$  |
+      | shaynadietrich834@gmail.com | carmen321$  |
     Then User checks if the email is registered
 
   Scenario: Order the TecDoc
@@ -21,7 +21,7 @@ Feature: Handling TecDoc
     And User clicks on the 'Sign in' button
     And User enters Credentials to LogIn
       | Username                     | Password    |
-      | karenaweimann694@gmail.com  | carmen321$  |
+      | shaynadietrich834@gmail.com  | carmen321$  |
     And User is ordering the TecDoc
     And User checks ordering is successful
 
@@ -30,6 +30,6 @@ Feature: Handling TecDoc
     And User clicks on the 'Sign in' button
     And User enters Credentials to LogIn
       | Username                     | Password    |
-      | karenaweimann694@gmail.com  | carmen321$  |
+      | ionel.yut130@gmail.com  | qwertyuiop  |
     And User clicks on the 'My web licenses' tab
     Then User is retrieving the TecDoc licence

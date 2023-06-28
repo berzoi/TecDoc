@@ -13,7 +13,7 @@
     <maven.compiler.target>17</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <cucumber.version>7.3.3</cucumber.version>
-    <selenide>6.5.1</selenide>
+    <selenide>6.15.0</selenide>
     <selenium-java>4.1.4</selenium-java>
     <javafaker>1.0.2</javafaker>
     <projectlombok>1.18.24</projectlombok>
@@ -38,7 +38,8 @@
     <dependency>
       <groupId>com.codeborne</groupId>
       <artifactId>selenide</artifactId>
-      <version>${selenide}</version>
+      <version>6.15.0</version>
+      <scope>test</scope>
     </dependency>
 
     <dependency>
@@ -58,6 +59,19 @@
       <groupId>com.typesafe</groupId>
       <artifactId>config</artifactId>
       <version>${typesafe}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>5.3.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>RELEASE</version>
+      <scope>test</scope>
     </dependency>
 
   </dependencies>
